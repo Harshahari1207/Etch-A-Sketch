@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Etch-A-Sketch</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <h1>Etch-A-Sketch</h1>
     <div class="controls">
-        <button id="reset">Reset</button>
-        <button class="color-choice" id="random" data-color="rainbow">Rainbow</button>
-        <button class="color-choice" id="color_btn" data-color="color">Color: <input id="color_input" type="color"><br></button>
-        <label for="range_input">Select size</label>
-        <input id="range_input" type="range" min="4" max="16" >
+      <button id="reset">Reset</button>
+      <button class="color-choice" id="random" data-color="rainbow">
+        Rainbow
+      </button>
+      <button class="color-choice" id="color_btn" data-color="color">
+        Color: <input id="color_input" type="color" /><br />
+      </button>
+      <label for="range_input">Select size</label>
+      <input id="range_input" type="range" min="4" max="16" />
     </div>
     <div id="main">
-
-        <div id="container">
-        </div>
+      <div id="container"></div>
     </div>
-    
-    <footer><p>Copyright © 2023 Harsha </p> 
-        <a href="https://github.com/Harshahari1207" target="">
-            <img src="img/icons8-github.svg" alt=""></a>
+
+    <footer>
+      <p>Copyright © 2023 Harsha</p>
+      <a href="https://github.com/Harshahari1207" target="">
+        <img src="img/icons8-github.svg" alt=""
+      /></a>
     </footer>
 
-    
     <script src="external.js"></script>
-</body>
+  </body>
 </html>
