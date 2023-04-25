@@ -43,7 +43,10 @@ button{
   border: 0;
   padding: 5px;
 }
-
+#reset:hover,
+#random:hover{
+  background-color: rgb(68, 233, 178);
+} 
 #color_btn {
   background-color: rgb(157, 194, 202);
   width: 125px;
@@ -58,6 +61,6 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   bottom: 0;
 }
