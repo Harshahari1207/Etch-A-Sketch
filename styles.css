@@ -9,32 +9,39 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 60px;
+  padding: 10px;
   font-family: "Quantico", sans-serif;
   background-color: rgb(216, 210, 202);
 }
-
+button{
+  cursor: pointer;
+}
 #main {
   width: 70%;
-  padding: 50px;
+  padding: 20px;
 }
 #container {
   display: grid;
   margin: 0 auto;
   width: 50%;
-  height: 600px;
+  height: 500px;
   background: azure;
   grid-template-rows: repeat(var(--grid-rows), 1fr);
   grid-template-columns: repeat(var(--grid-cols), 1fr);
   border: 20px solid grey;
 }
-
+.controls{
+  display: flex;
+  gap: 5px;
+}
 #reset,
 #random {
   background-color: aquamarine;
   width: 80px;
   height: auto;
   border-radius: 6px;
+  border: 0;
+  padding: 5px;
 }
 
 #color_btn {
@@ -42,6 +49,10 @@ body {
   width: 125px;
   height: auto;
   border-radius: 6px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 footer {
   width: 100%;
